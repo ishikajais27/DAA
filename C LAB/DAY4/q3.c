@@ -15,9 +15,9 @@ void bubbleSortRenamed(int array[], int length) {
                 array[j] = array[j + 1];
                 array[j + 1] = tempVar;
             }
+            }
         }
     }
-}
 
 int main() {
     int sortedInput[SIZE], reversedInput[SIZE];
